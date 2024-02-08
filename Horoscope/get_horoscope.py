@@ -1,7 +1,5 @@
 from bs4 import BeautifulSoup
-import json 
 import requests
-import importlib
 import sys
 import get_signs
 
