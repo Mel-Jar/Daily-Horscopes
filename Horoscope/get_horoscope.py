@@ -10,6 +10,6 @@ def main():
     page = requests.get(URL)
     soup = BeautifulSoup(page.content, "html.parser")
     get_signs.parser(soup, horscopes)
-    print("Here is your Daily Horscope for" + sign + ":")
+    print("Here is your Daily Horscope for " + sign + ":")
     print(horscopes[sign])
 main()
